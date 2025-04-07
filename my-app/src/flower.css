@@ -1,0 +1,104 @@
+.flowers {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 180px;
+  position: relative;
+}
+img:nth-child(1) {
+  position: absolute;
+  top: 12%;
+  left: 32%;
+  animation: animate 10s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(2) {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(3) {
+  position: absolute;
+  top: 18%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+img:nth-child(4) {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  animation: animate 9s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+img:nth-child(5) {
+  position: absolute;
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(6) {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+
+  animation: animate 12s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+img:nth-child(7) {
+  position: absolute;
+  top: 80%;
+
+  left: 90%;
+  animation: animate 15s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(8) {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(9) {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+img:nth-child(10) {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  animation: animate 5s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+  }
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
